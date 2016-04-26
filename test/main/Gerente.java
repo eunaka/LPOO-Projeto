@@ -6,8 +6,10 @@ public class Gerente extends Usuário {
     Cliente[] clientes;
     long restauranteId;
     
-    public Gerente (String longin, String senha, String nome, long id) {
+    public Gerente (String login, String senha, String nome, long id) {
         super (login, senha, nome, id);
+    
+    }
     
     public Restaurante[] getRestaurantes() {
         return restaurantes;

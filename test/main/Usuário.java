@@ -8,6 +8,14 @@ public class Usuário {
   public long id;
   
   
+ public Usuário (String login, String senha, String nome, long id) {
+     
+     this.login = login;
+     this.senha = senha;
+     this.nome = nome;
+     this.id = id;
+ }
+  
     public String getLogin() {
         return login;
     }

@@ -1,10 +1,6 @@
 
 package main;
 
-/**
- *
- * @author Anna
- */
 public class Cliente extends Usuário { 
     
      long[] favoritos;
